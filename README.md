@@ -1,3 +1,6 @@
+# Build a simplified, one-player version of the classic board game Battleship!There will be a single ship hidden in a random location on a 5x5 grid. The player will have 5 guesses to try to sink the ship.
+
+
 from random import randint
 
 board = []
