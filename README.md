@@ -41,5 +41,4 @@ for turn in range(4):
             if turn == 3:
                 print "Game Over"
     print "Turn",turn + 1
-
 print_board(board)
