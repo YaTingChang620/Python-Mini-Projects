@@ -28,8 +28,8 @@ print ship_row
 print ship_col
 
 for turn in range(4):
-	guess_row = int(raw_input("Guess Row:"))	
-	guess_col = int(raw_input("Guess Col:"))
+    guess_row = int(raw_input("Guess Row:"))	
+    guess_col = int(raw_input("Guess Col:"))
     
     if guess_row == ship_row and guess_col == ship_col:
         print "Congratulations! You sunk my battleship!"
@@ -45,4 +45,5 @@ for turn in range(4):
             if turn == 3:
                 print "Game Over"
     print "Turn",turn + 1
+
 print_board(board)
