@@ -1,13 +1,9 @@
 # Build a simplified, one-player version of the classic board game Battleship!There will be a single ship hidden in a random location on a 5x5 grid. The player will have 5 guesses to try to sink the ship.
-
-
 from random import randint
-
 board = []
 
 for x in range(5):
     board.append(["O"] * 5)
-    
 
 def print_board(board):
     for row in board:
@@ -28,7 +24,7 @@ print ship_row
 print ship_col
 
 for turn in range(4):
-    guess_row = int(raw_input("Guess Row:"))	
+    guess_row = int(raw_input("Guess Row:"))
     guess_col = int(raw_input("Guess Col:"))
     
     if guess_row == ship_row and guess_col == ship_col:
